@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://miksyreposteria.es/
+
+# Sitemaps
+Sitemap: https://miksyreposteria.es/sitemap.xml
