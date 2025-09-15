@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://miksyreposteria.es/
+Host: https://miskyreposteria.es/
 
 # Sitemaps
-Sitemap: https://miksyreposteria.es/sitemap.xml
+Sitemap: https://miskyreposteria.es/sitemap.xml
