@@ -20,8 +20,8 @@ const roboto = Roboto_Mono({
 
 
 export const metadata = {
-  title: "Miksy reposteria",
-  description: "Miksy reposteria",
+  title: "Misky reposteria",
+  description: "Misky reposteria",
   icons: {
     icon: "./favicon.png",
   },
