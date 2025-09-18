@@ -9,7 +9,7 @@ export default function Comming() {
 
       <Image src={ImageConstruction} alt="Image Construction" height={600} />
 
-      <div className="text-3xl -mt-8 mb-6 select-none"><strong>En construcción...</strong></div>
+      <div className="text-3xl -mt-4 md:-mt-8 mb-6 select-none"><strong>En construcción...</strong></div>
 
       <a
         href="https://wa.me/34613515064"
