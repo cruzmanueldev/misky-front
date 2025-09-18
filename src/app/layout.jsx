@@ -3,6 +3,15 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Roboto_Mono } from "next/font/google";
+import 'antd/dist/reset.css';
+import '@splidejs/react-splide/css';
+
+import '@splidejs/react-splide/css/skyblue';
+import '@splidejs/react-splide/css/sea-green';
+
+import '@splidejs/react-splide/css/core';
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -29,7 +38,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${roboto.className} flex flex-col min-h-screen`}>
+      <body className={`${geistSans.variable}  flex flex-col min-h-screen`}>
         {/* <Navbar/> */}
         {children}
         {/* <Footer/> */}

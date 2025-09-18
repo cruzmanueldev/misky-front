@@ -1,11 +1,13 @@
+'use client'
 import ImageCake1 from '@/assets/images/our1.jpg'
+import ContactUs from '@/components/our/ContactUs';
 import Image from "next/image";
 
 
 export default function Our() {
   return (
     <div className='pt-10'>
-      <h1 className='text-center text-2xl font-semibold mb-6'>Nosotros</h1>
+      {/* <h1 className='text-center text-2xl font-semibold mb-6'>Nosotros</h1>
       <section className="flex h-[40vh] bg-[#bce2f3]">
         <div className="w-1/2 relative">
           <Image
@@ -26,6 +28,7 @@ export default function Our() {
           </div>
         </div>
       </section>
+      <ContactUs/> */}
     </div>
   );
 }

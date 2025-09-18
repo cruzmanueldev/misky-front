@@ -9,8 +9,6 @@ import IconEmail from '@/assets/contact/email_icon.png'
 import IconLocation from '@/assets/contact/location_icon.png'
 import IconPhone from '@/assets/contact/phone_icon.png'
 
-
-
 export default function Footer() {
   return (
     <footer className="mt-auto pb-2 pt-4 text-center bg-[#683910] text-white">
@@ -23,31 +21,31 @@ export default function Footer() {
             <div>
               <Image src={IconPhone} alt="Icon Phone" height={15} />
             </div>
-            <div>+ 999 999 999</div>
+            <div className="text-sm">+ 999 999 999</div>
           </div>
           <div className="flex gap-2 items-center">
             <div>
               <Image src={IconEmail} alt="Icon Email" height={15} />
             </div>
-            <div>correo@gmail.com</div>
+            <div className="text-sm">correo@gmail.com</div>
           </div>
           <div className="flex gap-2 items-center">
             <div>
               <Image src={IconLocation} alt="Icon Location" height={15}/>
             </div>
-            <div>Madrid, Espana</div>
+            <div className="text-sm">Madrid, Espana</div>
           </div>
         </div>
         <div className="text-left leading-tight">
           <div className="font-semibold mb-2">Tienda</div>
-          <div>Cobertura</div>
-          <div>Nosotros</div>
-          <div>Libro de reclamaciones</div>
+          <div className="text-sm">Cobertura</div>
+          <div className="text-sm">Nosotros</div>
+          <div className="text-sm">Libro de reclamaciones</div>
         </div>
         <div className="text-left leading-tight">
-          <div className="font-semibold mb-2">Acerca de</div>
-          <div>Terminos y condiciones</div>
-          <div>Preguntas frecuentes</div>
+          <div className="font-semibold mb-2 text-base">Acerca de</div>
+          <div className="text-sm">Terminos y condiciones</div>
+          <div className="text-sm">Preguntas frecuentes</div>
         </div>
         <div>
           <div className="font-semibold mb-2">Siguenos</div>
@@ -59,8 +57,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-full mt-4 text-sm">
-        © 2025 Mi Web - Todos los derechos reservados
+      <div className="w-full mt-4 text-xs">
+        © 2025 Misky - Todos los derechos reservados
       </div>
     </footer>
   );
