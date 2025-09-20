@@ -10,6 +10,7 @@ import '@splidejs/react-splide/css/skyblue';
 import '@splidejs/react-splide/css/sea-green';
 
 import '@splidejs/react-splide/css/core';
+import Script from "next/script";
 
 
 const geistSans = Geist({
@@ -38,6 +39,25 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <Script 
+        async 
+        src="https://www.googletagmanager.com/gtag/js?id=G-03KWBN9JDR"
+      ></Script>
+      <Script
+        id="google-analytics"
+      >
+        {
+          `
+            window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-03KWBN9JDR');
+         `
+        }
+      </Script>
+      </head>
       <body className={`${geistSans.variable}  flex flex-col min-h-screen`}>
         {/* <Navbar/> */}
         {children}
