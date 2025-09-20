@@ -9,8 +9,13 @@ export default function Comming() {
 
       <Image src={ImageConstruction} alt="Image Construction" height={600} />
 
-      <div className="text-3xl -mt-4 md:-mt-8 mb-6 select-none"><strong>En construcción...</strong></div>
+      <div className="text-3xl -mt-1 md:-mt-2 mb-2 select-none"><strong>En construcción...</strong></div>
 
+      <p
+        className="mb-5 text-md md:text-xl flex items-center"
+      >
+        <Image src={IconWhatsapp} alt="Icon Whatsapp" height={30} width={30} className="mr-2 md:mr-2" />
+        Escribenos al +34 613 515 064</p>
       <a
         href="https://wa.me/34613515064"
         target="_blank"
