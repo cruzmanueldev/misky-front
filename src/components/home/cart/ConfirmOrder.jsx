@@ -124,10 +124,18 @@ export default function ConfirmOrder({ open, onClose, showSucces }) {
           </Table.Summary.Row>
         )}
       />
-      <div className="mb-4 mt-6">
-        <p className="!mb-1">Nombres y apellidos:</p>
+      <div className="mt-2">
+        <p className="">Hacemos repartos en la mañana 🩵</p>
+        <p className="!mb-0">Podrá elegir entre en:</p>
+        <p className="!mb-0">- 🚆Estación de Metro o renfe de tu preferencia con delivery gratis 🤗🩵</p>
+        <p className="!mb-0">- 🏠Domicilio con 2 a 3€ adicional dependiendo de la distancia</p>
+        <p className="!mt-3">🤗💵 El pago es en efectivo al momento de la entrega</p>
+      </div>
+      <div className="mb-4 mt-4">
+        
         <Row gutter={[12, 12]}>
           <Col xs={24} md={12}>
+            <p className="!mb-1">Nombres y apellidos:</p>
             <Input
               placeholder="Nombre"
               value={name}
@@ -136,6 +144,7 @@ export default function ConfirmOrder({ open, onClose, showSucces }) {
             />
           </Col>
           <Col xs={24} md={12} className="flex items-center">
+            <p className="!mb-1">Número de contacto:</p>
             <PhoneInput
               placeholder="Ingresa tu número"
               value={phone}
@@ -147,6 +156,8 @@ export default function ConfirmOrder({ open, onClose, showSucces }) {
             />
           </Col>
         </Row>
+        <p className="!mt-4"><strong>Te estaremos escribiendo en breve para coordinar la entrega</strong></p>
+
       </div>
     </Modal>
   );
