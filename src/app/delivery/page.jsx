@@ -1,46 +1,84 @@
-import IconDelivery from '@/assets/images/delivery_man.png'
+
 import Image from "next/image";
+import IconDelivery1 from '@/assets/social/delivery_1.png'
+import IconDelivery2 from '@/assets/social/delivery_2.png'
+import IconDelivery3 from '@/assets/social/delivery_3.png'
+
+export const metadata = {
+  title: 'Delivery',
+  description: 'Delivery',
+  keywords: ['Delivery contra entrega', 'Madrid','Consulta','horario'],
+  openGraph: {
+    title: 'Delivery | Misky Reposteria',
+    description: 'Conoce nuestro delivery',
+    url: 'https://miskyreposteria.es/delivery',
+    siteName: 'Misky Reposteria',
+    locale: 'es_ES',
+    type: 'website',
+  },
+};
 
 export default function Delivery() {
   return (
-    <section className="py-10 px-14">
-      {/* <h1 className="text-3xl text-center"><strong>Delivery</strong></h1>
+    <main className="flex flex-col min-h-screen">
+      <section className="py-10 px-4 lg:px-10 xl:px-20">
+        <h1 className="text-2xl md:text-3xl text-center !mb-10"><strong>Conoce nuestro delivery</strong></h1>
 
-      <h2 className="text-2xl mt-10 mb-2"><strong>1. Contraentrega</strong></h2>
-      <ul>
-        <li>
-          <p>Nuestro servicio de contraentrega está disponible de lunes a domingo de 11am a 6pm.</p>
-        </li>
-      </ul>
+        <div className="px-4 lg:px-14 pb-10">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center text-white text-lg">
 
-      <h2 className="text-2xl mt-10 mb-2"><strong>2. Zona de coberturas y tarifa</strong></h2>
-      <ul>
-        <li>
-          <p>- Barranco, Miraflores, Surquillo y San Isidro s/ 10.</p>
-        </li>
-        <li>
-          <p>-  Surco y San Borja s/ 14.</p>
-        </li>
-        <li>
-          <p>- Lince, Magadalena y Jesus María s/14.</p>
-        </li>
-      </ul>
-      <div className="flex justify-center mt-4 mb-2">
-        <Image src={IconDelivery} alt="Icon delivery" width={70} height={70}/>
-      </div>
-      <p className='text-center'>Si tu distrito no está disponible para contraentrega, siempre puedes elegir la opción de RECOJO EN TIENDA.</p>
+            <div className="flex flex-col w-full md:w-1/3 lg:w-1/3 2xl:w-1/5">
+              <Image 
+                src={IconDelivery1} alt="Icon Offer" className="mb-2 mx-auto relative top-10" width={200} height={200} 
+              />
+              <div className="bg-[#1E9FE0] py-6 px-2 text-center min-h-[100px] flex justify-center items-center rounded-xl shadow-sm z-10 transition-transform duration-200 hover:scale-105 cursor-pointer select-none">
+                <p className="!mb-0 leading-tight">Nuestras entregas son en la mañana</p>
+              </div>
+            </div>
 
-      <h2 className="text-2xl mt-10 mb-2">
-        <strong>3. Recojo en tienda</strong>
-      </h2>
+            <div className="flex flex-col w-full md:w-1/3 lg:w-1/3 2xl:w-1/5">
+              <Image src={IconDelivery2} alt="Icon Clock" className="mb-2 mx-auto relative top-14" width={200} height={200} />
+              <div className="bg-[#1E9FE0] py-6 px-2 text-center rounded-xl min-h-[100px] flex justify-center items-center z-10 shadow-sm transition-transform duration-200 hover:scale-105 cursor-pointer select-none">
+                <p className="!mb-0 leading-tight">El horario va de acuerdo a la ruta de nuestro delivery</p>
+              </div>
+            </div>
 
-      <h3>Aquí te dejamos la dirección de nuestro punto de venta en caso desees recoger tu pedido:</h3>
+            <div className="flex flex-col w-full md:w-1/3 lg:w-1/3 2xl:w-1/5">
+              <Image src={IconDelivery3} alt="Icon Delivery" className="mb-2 mx-auto relative top-12" width={200} height={200} />
+              <div className="bg-[#1E9FE0] py-6 px-2 text-center rounded-xl min-h-[100px] flex justify-center items-center shadow-sm z-10 transition-transform duration-200 hover:scale-105 cursor-pointer select-none">
+                <p className="!mb-0 leading-tight">Hacemos entregas los 365 días del año (incluyendo feriados)</p>
+              </div>
+            </div>
 
-      <ul className="list-disc list-inside ml-5">
-        <li>Av. Alfredo Benavides 1113, Miraflores.</li>
-      </ul>
+          </div>
+        </div>
 
-      <p className='text-xs mt-10'><strong>** Los feriados el servicio de delivery puede variar sin previo aviso. Si tienes un pedido programado para esos días, nos comunicaremos previamente para coordinar la entrega.</strong></p> */}
-    </section>
+
+        <h2 className="text-lg md:text-2xl mt-10 mb-2"><strong>1.	Delivery contra entrega</strong></h2>
+        <ul>
+          <li>
+            <p className='text-sm md:text-base'>Realiza el pago al momento de la entrega</p>
+          </li>
+        </ul>
+
+        <h2 className="text-lg md:text-2xl !mt-10 mb-2"><strong>2. Hacemos entregas en todo Madrid</strong></h2>
+        <ul>
+          <li>
+            <p className='text-sm md:text-base'>-	Elige la entrega en la estación de renfe o metro de su preferencia con <strong>delivery gratis</strong></p>
+          </li>
+          <li>
+            <p className='text-sm md:text-base'>-	Elige la entrega a domicilio con un <strong>costo adicional de 2 a 3 € dependiendo de la distancia ☺️</strong></p>
+          </li>
+        </ul>
+
+        <h2 className="text-lg md:text-2xl !mt-10 !mb-6"><strong>Realiza tu pedido y consulta el horario</strong></h2>
+
+        <h2 className="text-lg md:text-2xl !mt-10 mb-2"><strong>¿No tienes disponibilidad en la mañana?</strong></h2>
+
+        <div>Puedes recoger en nuestro <strong>obrador en Parla.</strong> Fijaríamos un punto de encuentro cerca a la comisaria de Parla para recoger a cualquier hora del día <strong>¡Escríbenos para coordinar la entrega!</strong></div>
+
+      </section>
+    </main>
+
   );
 }

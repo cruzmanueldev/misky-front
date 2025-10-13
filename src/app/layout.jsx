@@ -1,67 +1,71 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Script from "next/script";
+import { Montserrat } from "next/font/google";
 import Footer from "@/components/Footer";
-import { Roboto_Mono } from "next/font/google";
+import FloatContactUs from "@/components/home/FloatContactUs";
+import Navbar from "@/components/Navbar";
+import Welcome from "@/components/home/home/Welcome";
+
 import 'antd/dist/reset.css';
 import '@splidejs/react-splide/css';
-
 import '@splidejs/react-splide/css/skyblue';
 import '@splidejs/react-splide/css/sea-green';
-
 import '@splidejs/react-splide/css/core';
-import Script from "next/script";
 
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const montserrat = Montserrat({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-montserrat",
 });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
-
-const roboto = Roboto_Mono({
-  subsets: ["latin"],
-  weight: ["500", "700"],
-});
-
 
 export const metadata = {
-  title: "Misky reposteria",
-  description: "Misky reposteria",
-  icons: {
-    icon: "./favicon.png",
+  title: {
+    default: "Misky reposteria",
+    template: "%s | Misky",
+  },
+  description: "Tienda online de productos Misky. Delivery rápido y calidad garantizada.",
+  keywords: ["Misky", "tienda", "delivery", "productos"],
+  openGraph: {
+    title: "Misky Reposteria",
+    description: "Compra productos de calidad con entrega rápida.",
+    url: "https://miskyreposteria.es/",
+    siteName: "Misky",
   },
 };
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={montserrat.className}>
       <head>
-      <Script 
-        async 
-        src="https://www.googletagmanager.com/gtag/js?id=G-03KWBN9JDR"
-      ></Script>
-      <Script
-        id="google-analytics"
-      >
-        {
-          `
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-03KWBN9JDR"
+        ></Script>
+        <Script
+          id="google-analytics"
+        >
+          {
+            `
             window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-03KWBN9JDR');
          `
-        }
-      </Script>
+          }
+        </Script>
       </head>
-      <body className={`${geistSans.variable}  flex flex-col min-h-screen`}>
-        {/* <Navbar/> */}
-        {children}
-        {/* <Footer/> */}
+      <body className={`flex flex-col min-h-screen`}>
+        <header className="sticky top-0 z-50">
+          <Navbar />
+        </header>
+        <main className="flex-1">
+          {children}
+        </main>
+        <FloatContactUs />
+        <Footer />
+        <Welcome/>
       </body>
     </html>
   );
