@@ -43,7 +43,7 @@ export default function ContactUs() {
               <div className="mb-3 text-start">Encuentranos aquí:</div>
                 <div className="flex">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7805.490197960917!2d-77.07094196494845!3d-11.99213163717007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1758082037357!5m2!1ses-419!2spe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6091.760641086751!2d-3.7729847163730432!3d40.233963129889005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41f53cd5798b49%3A0xf5a426f8544da94f!2sC.%20Pablo%20Casals%2C%2028981%20Parla%2C%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2spe!4v1760332588958!5m2!1ses-419!2spe" width="600" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
                     className="w-[100%] md:w-[80%]"
                     height="360"
                     style={{ border: 0 }}
@@ -54,7 +54,7 @@ export default function ContactUs() {
                 </div>
               <div className="flex mt-2">
                 <Image src={IconLocation} alt="Imagen Location" height={16} className="object-cover mr-1"/>
-                <span><strong>Madrid 303, España</strong></span>
+                <span><strong>Calle Pablo Casals, Madrid - España</strong></span>
               </div>
             </div>
           </div>
