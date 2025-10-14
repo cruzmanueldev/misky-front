@@ -52,9 +52,9 @@ export default function ContactUs() {
                     referrerPolicy="no-referrer-when-downgrade"
                   />
                 </div>
-              <div className="flex mt-2">
-                <Image src={IconLocation} alt="Imagen Location" height={16} className="object-cover mr-1"/>
-                <span><strong>Calle Pablo Casals, Madrid - España</strong></span>
+              <div className="flex mt-2 items-center">
+                <Image src={IconLocation} alt="Ubicación Madrid - España" height={16} className="object-cover !h-6 mr-1"/>
+                <span className="text-start md:text-center"><strong>Calle Pablo Casals, Madrid - España</strong></span>
               </div>
             </div>
           </div>

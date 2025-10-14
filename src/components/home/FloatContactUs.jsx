@@ -13,7 +13,7 @@ export default function FloatContactUs() {
       >
         <Image
           src={IconWhatsapp}
-          alt="Icon Whatsapp"
+          alt="Contactanos en Whatsapp"
           className="cursor-pointer"
           height={60}
           width={60}

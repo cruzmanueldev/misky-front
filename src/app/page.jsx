@@ -31,7 +31,7 @@ export default function HomePage() {
             bg-fixed md:bg-fixed
           "
           style={{
-            backgroundImage: 'url(/main.jpg)'
+            backgroundImage: 'url(/main.webp)'
           }}
         >
         </div>
@@ -45,7 +45,7 @@ export default function HomePage() {
             bg-fixed
           "
           style={{
-            backgroundImage: 'url(/sub_main.jpg)'
+            backgroundImage: 'url(/sub_main.webp)'
           }}
         ></div>
       </section>

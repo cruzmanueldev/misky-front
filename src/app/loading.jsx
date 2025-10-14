@@ -6,7 +6,7 @@ export default function Loading() {
     <div className="flex items-center justify-center min-h-screen">
       <Image
         src={LogoMisky}
-        alt="Icon Misky"
+        alt="Misky - Reposteria arteseanal"
         className="cursor-pointer"
         height={120}
       />

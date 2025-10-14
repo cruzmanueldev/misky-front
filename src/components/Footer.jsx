@@ -18,7 +18,7 @@ export default function Footer() {
           >
             <Image
               src={LogoMisky}
-              alt="Icon Misky"
+              alt="Misky - Reposteria arteseanal"
               className="cursor-pointer"
               height={50}
             />
@@ -29,19 +29,19 @@ export default function Footer() {
           <div className="flex flex-col gap-1">
             <div className="flex gap-2 items-center">
               <div>
-                <Image src={IconPhone} alt="Icon Phone" height={15} />
+                <Image src={IconPhone} alt="Contáctanos al número" height={15} />
               </div>
               <div className="text-xs md:text-sm">+34 613 515 064</div>
             </div>
             <div className="flex gap-2 items-center">
               <div>
-                <Image src={IconEmail} alt="Icon Email" height={15} />
+                <Image src={IconEmail} alt="Contáctanos a través de nuestro correo" height={15} />
               </div>
               <div className="text-xs md:text-sm">@misky.reposteriatradicional</div>
             </div>
             <div className="flex gap-2 items-center">
               <div>
-                <Image src={IconLocation} alt="Icon Location" height={15}/>
+                <Image src={IconLocation} alt="Ubícanos en Madrid, España" height={15}/>
               </div>
               <div className="text-xs md:text-sm">Madrid, España</div>
             </div>
@@ -81,14 +81,14 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src={LogoTiktok} alt="Logo Tiktok" width={30} height={30} className="transition-transform duration-200 hover:scale-110 cursor-pointer" />
+              <Image src={LogoTiktok} alt="Síguenos en tiktok" width={30} height={30} className="transition-transform duration-200 hover:scale-110 cursor-pointer" />
             </a>
             <a
               href="https://www.instagram.com/miskyreposteria/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src={LogoInstagram} alt="Logo Instagram" width={30} height={30} className="transition-transform duration-200 hover:scale-110 cursor-pointer" />
+              <Image src={LogoInstagram} alt="Síguenos en Instagram" width={30} height={30} className="transition-transform duration-200 hover:scale-110 cursor-pointer" />
             </a>
           </div>
         </div>

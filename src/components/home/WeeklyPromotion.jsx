@@ -1,7 +1,7 @@
 
 import Image from "next/image";
-import ImageWeeklyPromotional1 from '@/assets/home/promotional1.jpg'
-import ImageWeeklyPromotional2 from '@/assets/home/promotional2.jpg'
+import ImageWeeklyPromotional1 from '@/assets/home/promotional1.webp'
+import ImageWeeklyPromotional2 from '@/assets/home/promotional2.webp'
 import Link from "next/link";
 
 
@@ -22,8 +22,8 @@ export default function WeeklyPromotion() {
         </div>
       </div>
       <div className="w-1/1 md:w-1/2 lg:w-1/4 px-0 lg:px-10 flex items-center justify-center">
-        <Image src={ImageWeeklyPromotional2} alt="Image Weekly Promotion" className="!w-[40%] rounded-xl lg:!w-[80%] !h-[45%] sm:!h-[70%] md:!h-[90%] lg:!h-[80%] z-10 relative -bottom-18 -right-2 -rotate-3 transition-transform duration-200 hover:scale-105 cursor-pointer" height={300}/>
-        <Image src={ImageWeeklyPromotional1} alt="Image Weekly Promotion" className="!w-[40%] rounded-xl lg:!w-[80%] !h-[45%] sm:!h-[70%] md:!h-[90%] lg:!h-[80%] rotate-3 relative top-4 -left-3 transition-transform duration-200 hover:scale-105 cursor-pointer" height={300}/>
+        <Image src={ImageWeeklyPromotional2} alt="Pack mes morado" className="!w-[40%] rounded-xl lg:!w-[80%] !h-[45%] sm:!h-[70%] md:!h-[90%] lg:!h-[80%] z-10 relative -bottom-18 -right-2 -rotate-3 transition-transform duration-200 hover:scale-105 cursor-pointer" height={300}/>
+        <Image src={ImageWeeklyPromotional1} alt="Pack cuchareable" className="!w-[40%] rounded-xl lg:!w-[80%] !h-[45%] sm:!h-[70%] md:!h-[90%] lg:!h-[80%] rotate-3 relative top-4 -left-3 transition-transform duration-200 hover:scale-105 cursor-pointer" height={300}/>
       </div>
     </div>
   );

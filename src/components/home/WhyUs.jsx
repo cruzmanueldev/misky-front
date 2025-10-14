@@ -12,7 +12,7 @@ export default function WhyUs() {
       <div className="flex flex-col md:flex-row md:gap-0 lg:gap-8 items-end">
         <div className="w-1/1 md:w-1/2 text-center px-10 md:px-6 xl:px-20 text-white relative -top-12">
           <Image 
-            src={ImageHolidays} alt="Icon Offer" className="mb-2 mx-auto relative top-12" width={200} height={200} 
+            src={ImageHolidays} alt="Misky te hará sentir en casa" className="mb-2 mx-auto relative top-12" width={200} height={200} 
           />
           <div className="bg-[#1E9FE0] py-6 px-2 text-center min-h-[100px] flex justify-center items-center rounded-xl shadow-sm z-10 transition-transform duration-200 hover:scale-105 cursor-pointer select-none relative flex-col">
             <h3 className="text-lg"><strong>¡Misky te hará sentir en casa!</strong></h3>
@@ -21,7 +21,7 @@ export default function WhyUs() {
         </div>
         <div className="w-1/1 md:w-1/2 text-center px-10 md:px-6 xl:px-20 text-white relative -top-12">
           <Image 
-            src={ImageAttending} alt="Icon Offer" className="mb-2 mx-auto relative top-18" width={250} height={250} 
+            src={ImageAttending} alt="Misky te cuida" className="mb-2 mx-auto relative top-18" width={250} height={250} 
           />
           <div className="bg-[#1E9FE0] py-6 px-2 text-center min-h-[100px] flex justify-center items-center rounded-xl shadow-sm relative z-10 transition-transform duration-200 hover:scale-105 cursor-pointer select-none flex-col">
             <h3 className="text-lg"><strong>Misky te cuida</strong></h3>

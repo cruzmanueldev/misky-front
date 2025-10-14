@@ -27,7 +27,7 @@ export default function Navbar() {
         >
           <Image
             src={LogoMisky}
-            alt="Icon Whatsapp"
+            alt="Misky - Reposteria artesanal"
             className="cursor-pointer"
             height={40}
           />

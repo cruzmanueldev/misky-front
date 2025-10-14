@@ -20,7 +20,7 @@ export default function PromotionalBanner() {
         >
           <strong>Personalizar pedido</strong>
         </Link>
-        <Image src={ImagePromotional} alt="Image promotional" className="rounded-lg" height={100} />
+        <Image src={ImagePromotional} alt="Personalizar pedido" className="rounded-lg" height={100} />
       </div>
     </div>
   );

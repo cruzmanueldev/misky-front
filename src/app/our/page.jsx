@@ -1,5 +1,5 @@
-import ImageOur from '@/assets/images/our.jpg'
-import ImageAlfajor1 from '@/assets/images/alfajor1.jpg'
+import ImageOur from '@/assets/images/our.webp'
+import ImageAlfajor1 from '@/assets/images/alfajor1.webp'
 import ContactUs from '@/components/our/ContactUs';
 import Image from "next/image";
 
@@ -27,7 +27,7 @@ export default function Our() {
         <div className="w-1/1 md:w-2/5 flex justify-center">
           <Image
             src={ImageOur}
-            alt="Imagen Pastel Misky 1"
+            alt="Misión de Misky"
             className="object-cover rounded-lg"
           />
         </div>
@@ -59,7 +59,7 @@ export default function Our() {
         <div className="w-1/1 md:w-1/3 relative flex justify-center items-center">
           <Image
             src={ImageAlfajor1}
-            alt="Imagen Alfajor Misky 1"
+            alt="Visión de Misky"
             className="object-cover rounded-lg h-[80%]"
           />
         </div>

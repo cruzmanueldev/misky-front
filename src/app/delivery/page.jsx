@@ -29,7 +29,7 @@ export default function Delivery() {
 
             <div className="flex flex-col w-full md:w-1/3 lg:w-1/3 2xl:w-1/5">
               <Image 
-                src={IconDelivery1} alt="Icon Offer" className="mb-2 mx-auto relative top-10" width={200} height={200} 
+                src={IconDelivery1} alt="Entregas por la mañana" className="mb-2 mx-auto relative top-10" width={200} height={200} 
               />
               <div className="bg-[#1E9FE0] py-6 px-2 text-center min-h-[100px] flex justify-center items-center rounded-xl shadow-sm z-10 transition-transform duration-200 hover:scale-105 cursor-pointer select-none">
                 <p className="!mb-0 leading-tight">Nuestras entregas son en la mañana</p>
@@ -37,14 +37,14 @@ export default function Delivery() {
             </div>
 
             <div className="flex flex-col w-full md:w-1/3 lg:w-1/3 2xl:w-1/5">
-              <Image src={IconDelivery2} alt="Icon Clock" className="mb-2 mx-auto relative top-14" width={200} height={200} />
+              <Image src={IconDelivery2} alt="Horario de delivery de acuerdo a la ruta" className="mb-2 mx-auto relative top-14" width={200} height={200} />
               <div className="bg-[#1E9FE0] py-6 px-2 text-center rounded-xl min-h-[100px] flex justify-center items-center z-10 shadow-sm transition-transform duration-200 hover:scale-105 cursor-pointer select-none">
                 <p className="!mb-0 leading-tight">El horario va de acuerdo a la ruta de nuestro delivery</p>
               </div>
             </div>
 
             <div className="flex flex-col w-full md:w-1/3 lg:w-1/3 2xl:w-1/5">
-              <Image src={IconDelivery3} alt="Icon Delivery" className="mb-2 mx-auto relative top-12" width={200} height={200} />
+              <Image src={IconDelivery3} alt="Entregas los 365 dias del año" className="mb-2 mx-auto relative top-12" width={200} height={200} />
               <div className="bg-[#1E9FE0] py-6 px-2 text-center rounded-xl min-h-[100px] flex justify-center items-center shadow-sm z-10 transition-transform duration-200 hover:scale-105 cursor-pointer select-none">
                 <p className="!mb-0 leading-tight">Hacemos entregas los 365 días del año (incluyendo feriados)</p>
               </div>
