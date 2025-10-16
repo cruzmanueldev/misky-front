@@ -14,7 +14,7 @@ export default function Navbar() {
     { href: "/", label: "Tienda" },
     { href: "/products", label: "Productos" },
     { href: "/our", label: "Nosotros" },
-      { href: "/delivery", label: "Delivery" },
+      { href: "/delivery", label: "Formas de entrega" },
   ];
 
   return (

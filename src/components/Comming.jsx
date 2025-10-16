@@ -5,11 +5,11 @@ import IconWhatsapp from '@/assets/home/whatsapp_icon.png'
 export default function Comming() {
   return (
     <div className="flex h-screen flex-col justify-center px-2 md:px-12 text-white items-center bg-[#34B7F1]">
-      <h1 className="font-semibold text-6xl select-none"><strong>Misky</strong></h1>
+      <h1 className="font-semibold text-6xl select-none"><strong>Misky Reposteria</strong></h1>
 
       <Image src={ImageConstruction} alt="Misky Repostería" height={600} />
 
-      <div className="text-3xl -mt-1 md:-mt-2 mb-2 select-none"><strong>En construcción...</strong></div>
+      <div className="text-3xl -mt-1 md:-mt-2 mb-2 select-none"><strong></strong></div>
 
       <p
         className="mb-5 text-md md:text-xl flex items-center"
@@ -22,7 +22,7 @@ export default function Comming() {
         rel="noopener noreferrer"
         className="animate-bounce ml-2 !text-white py-2 px-3 rounded-lg text-center text-md md:text-xl flex items-center bg-[#25D366]"
       >
-        <Image src={IconWhatsapp} alt="Realiza tu pedido" height={30} className="mr-0 md:mr-2" />Realiza tu pedido a   través de nuestro Whatsapp
+        <Image src={IconWhatsapp} alt="Realiza tu pedido" height={30} className="mr-0 md:mr-2" />Realiza tu pedido a través de nuestro Whatsapp
       </a>
     </div>
   );

@@ -22,7 +22,7 @@ export default function Our() {
     <main className="flex flex-col pt-10 min-h-screen">
       <h1 className='text-center text-2xl md:text-3xl font-semibold !mb-10'><strong>Nosotros</strong></h1>
 
-      <section className="flex flex-col px-4 pt-4 md:py-8 md:flex-row bg-[#ecd1b1] gap-2 md:gap-0">
+      <section className="flex flex-col px-4 pt-4 md:py-8 md:flex-row bg-[#fce2c4] gap-2 md:gap-0">
 
         <div className="w-1/1 md:w-2/5 flex justify-center">
           <Image
@@ -34,7 +34,7 @@ export default function Our() {
 
         <div className="flex w-1/1 md:w-3/5 items-center text-sm md:text-base md:px-4 py-3 justify-start text-[#683910]">
           <div className="space-y-2">
-            <h2 className='text-xl'>
+            <h2 className='text-3xl md:text-4xl'>
               <strong>Misión</strong>
             </h2>
             <p>
@@ -49,7 +49,7 @@ export default function Our() {
       <section className="flex flex-col md:flex-row mt-15 md:mt-10 px-8 md:px-12">
 
         <div className="flex flex-col items-start text-sm md:text-base w-1/1 md:w-2/3 justify-center md:pr-8 text-gray-700">
-          <h2 className='text-xl'>
+          <h2 className='text-3xl md:text-4xl'>
             <strong>Visión</strong>
           </h2>
           <p>

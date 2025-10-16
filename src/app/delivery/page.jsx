@@ -5,12 +5,12 @@ import IconDelivery2 from '@/assets/social/delivery_2.png'
 import IconDelivery3 from '@/assets/social/delivery_3.png'
 
 export const metadata = {
-  title: 'Delivery',
-  description: 'Delivery',
+  title: 'Formas de entrega',
+  description: 'Formas de entrega',
   keywords: ['Delivery contra entrega', 'Madrid','Consulta','horario'],
   openGraph: {
-    title: 'Delivery | Misky Reposteria',
-    description: 'Conoce nuestro delivery',
+    title: 'Formas de entrega | Misky Reposteria',
+    description: 'Conoce nuestra forma de entrega',
     url: 'https://miskyreposteria.es/delivery',
     siteName: 'Misky Reposteria',
     locale: 'es_ES',
@@ -22,7 +22,7 @@ export default function Delivery() {
   return (
     <main className="flex flex-col min-h-screen">
       <section className="py-10 px-4 lg:px-10 xl:px-20">
-        <h1 className="text-2xl md:text-3xl text-center !mb-10"><strong>Conoce nuestro delivery</strong></h1>
+        <h1 className="text-2xl md:text-3xl text-center !mb-10"><strong>Conoce nuestra forma de entrega</strong></h1>
 
         <div className="px-4 lg:px-14 pb-10">
           <div className="flex flex-col sm:flex-row gap-4 justify-center text-white text-lg">
