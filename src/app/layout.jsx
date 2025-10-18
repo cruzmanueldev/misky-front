@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import FloatContactUs from "@/components/home/FloatContactUs";
 import Navbar from "@/components/Navbar";
 import Welcome from "@/components/home/home/Welcome";
+import AnalyticsLoader from "@/components/AnalyticsLoader.client"
+import CookieConsent from "@/components/CookieConsent.client"
 
 import 'antd/dist/reset.css';
 import '@splidejs/react-splide/css';
@@ -38,23 +40,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={montserrat.className}>
       <head>
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-03KWBN9JDR"
-        ></Script>
-        <Script
-          id="google-analytics"
-        >
-          {
-            `
-            window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-03KWBN9JDR');
-         `
-          }
-        </Script>
       </head>
       <body className={`flex flex-col min-h-screen`}>
         <header className="sticky top-0 z-50">
@@ -62,6 +47,8 @@ export default function RootLayout({ children }) {
         </header>
         <main className="flex-1">
           {children}
+          <AnalyticsLoader gaMeasurementId={process.env.NEXT_PUBLIC_GA_ID} />
+          <CookieConsent />
         </main>
         <FloatContactUs />
         <Footer />
