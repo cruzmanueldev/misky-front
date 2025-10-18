@@ -67,11 +67,9 @@ export default function ConfirmOrder({ open, onClose, showSucces }) {
 
     try {
 
-      const response = await fetch(`${baseUrl}/sales`, {
+      const response = await fetch('/api/sales', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(order),
       });
 
