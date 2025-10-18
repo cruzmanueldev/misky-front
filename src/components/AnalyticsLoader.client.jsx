@@ -8,7 +8,6 @@ const COOKIE_NAME = "cookie_consent_v1";
 
 function injectGtag(measurementId) {
 
-  console.log('inyectando');
   if (!measurementId) return;
   if (typeof window === "undefined") return;
   if (window.__GA_LOADED__) return;
