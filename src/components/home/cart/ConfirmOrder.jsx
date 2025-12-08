@@ -122,7 +122,8 @@ export default function ConfirmOrder({ open, onClose, showSucces }) {
           </Table.Summary.Row>
         )}
       />
-      <div className="mt-2">
+      <div className="mt-4">
+        <p className="font-bold">Tu pedido llegará mañana</p>
         <p className="">Hacemos repartos en la mañana 🩵</p>
         <p className="!mb-0">Podrá elegir entre en:</p>
         <p className="!mb-0">- 🚆Estación de Metro o renfe de tu preferencia con delivery gratis 🤗🩵</p>

@@ -38,7 +38,7 @@ export default function Welcome() {
             src={WelcomeImg}
             alt='Bienvenido a Miksy'
             className='cursor-pointer'
-            height={300}
+            height={380}
           />
           <div className='mt-5 flex justify-center'>
             <Button className='!bg-[#683910] !text-white !text-lg !h-[38px]' onClick={() => handleClose()}>Ver tienda</Button>
