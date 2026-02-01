@@ -73,9 +73,9 @@ export default function Delivery() {
 
         <h2 className="text-lg md:text-2xl !mt-10 !mb-6"><strong>Realiza tu pedido y consulta el horario</strong></h2>
 
-        <h2 className="text-lg md:text-2xl !mt-10 mb-2"><strong>¿No tienes disponibilidad en la mañana?</strong></h2>
+        <h2 className="text-lg md:text-2xl !mt-10 mb-2"><strong>Acércate a nuestro local</strong></h2>
 
-        <div>Puedes recoger en nuestro <strong>obrador en Parla.</strong> Fijaríamos un punto de encuentro cerca a la comisaria de Parla para recoger a cualquier hora del día <strong>¡Escríbenos para coordinar la entrega!</strong></div>
+        <div>Ahora puedes acercarte a disfrutar nuestros postres en nuestra tienda física. Estamos ubicados en <strong>calle rio tajo 3, en Alcorcón</strong>, cerca a la estación metro puerta del sur</div>
 
       </section>
     </main>

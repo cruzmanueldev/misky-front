@@ -43,7 +43,7 @@ export default function ContactUs() {
               <div className="mb-3 text-start">Encuentranos aquí:</div>
                 <div className="flex">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6091.760641086751!2d-3.7729847163730432!3d40.233963129889005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41f53cd5798b49%3A0xf5a426f8544da94f!2sC.%20Pablo%20Casals%2C%2028981%20Parla%2C%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2spe!4v1760332588958!5m2!1ses-419!2spe" width="600" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d380.1193020206472!2d-3.8156993!3d40.3433572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418948b126bd35%3A0x68d0006aeccbea35!2zQy4gUsOtbyBUYWpvLCAzLCAyODkyMyBBbGNvcmPDs24sIE1hZHJpZCwgRXNwYcOxYQ!5e0!3m2!1ses!2spe!4v1769956579131!5m2!1ses!2spe" width="600" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
                     className="w-[100%] md:w-[80%]"
                     height="360"
                     style={{ border: 0 }}
