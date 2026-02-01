@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { Modal, Button } from 'antd'
-import WelcomeImg from '@/assets/home/welcome.png'
+import WelcomeImg from '@/assets/home/welcome.webp'
 
 export default function Welcome() {
   const [showSuccess, setShowSuccess] = useState(false)

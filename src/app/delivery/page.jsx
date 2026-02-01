@@ -64,10 +64,10 @@ export default function Delivery() {
         <h2 className="text-lg md:text-2xl !mt-10 mb-2"><strong>2. Hacemos entregas en todo Madrid</strong></h2>
         <ul>
           <li>
-            <p className='text-sm md:text-base'>-	Elige la entrega en la estación de renfe o metro de su preferencia con <strong>delivery gratis</strong></p>
+            <p className='text-sm md:text-base'>-	Elige la entrega en la estación de renfe o metro de su preferencia con <strong>costo adicional de 1 €</strong></p>
           </li>
           <li>
-            <p className='text-sm md:text-base'>-	Elige la entrega a domicilio con un <strong>costo adicional de 2 a 3 € dependiendo de la distancia ☺️</strong></p>
+            <p className='text-sm md:text-base'>-	Elige la entrega a domicilio con un <strong>costo adicional de 2 a 4 € dependiendo de la distancia ☺️</strong></p>
           </li>
         </ul>
 
