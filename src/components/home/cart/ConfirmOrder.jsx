@@ -126,8 +126,8 @@ export default function ConfirmOrder({ open, onClose, showSucces }) {
         <p className="font-bold">Tu pedido llegará mañana</p>
         <p className="">Hacemos repartos en la mañana 🩵</p>
         <p className="!mb-0">Podrá elegir entre en:</p>
-        <p className="!mb-0">- 🚆Estación de Metro o renfe de tu preferencia con delivery gratis 🤗🩵</p>
-        <p className="!mb-0">- 🏠Domicilio con 2 a 3€ adicional dependiendo de la distancia</p>
+        <p className="!mb-0">- 🚆Estación de Metro o renfe de tu preferencia con costo adicional de 1 € 🤗🩵</p>
+        <p className="!mb-0">- 🏠Domicilio con 2 a 4€ adicional dependiendo de la distancia</p>
         <p className="!mt-3">🤗💵 El pago es en efectivo al momento de la entrega</p>
       </div>
       <div className="mb-4 mt-4">
