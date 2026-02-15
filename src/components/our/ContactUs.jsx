@@ -54,7 +54,7 @@ export default function ContactUs() {
                 </div>
               <div className="flex mt-2 items-center">
                 <Image src={IconLocation} alt="Ubicación Madrid - España" height={16} className="object-cover !h-6 mr-1"/>
-                <span className="text-start md:text-center"><strong>Calle Pablo Casals, Madrid - España</strong></span>
+                <span className="text-start md:text-center"><strong>C. Río Tajo, 3, 28923 Alcorcón, Madrid, España</strong></span>
               </div>
             </div>
           </div>
