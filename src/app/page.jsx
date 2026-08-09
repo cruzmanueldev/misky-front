@@ -6,24 +6,24 @@ import WeeklyPromotion from "@/components/home/WeeklyPromotion";
 import WhyUs from "@/components/home/WhyUs";
 
 export const metadata = {
-  title: 'Misky Reposteria',
-  description: 'Bienvenidos a Misky Reposteria',
-  keywords: ['productos', 'tienda', 'alfajores', 'piononos', 'cuchareables', 'especiales', 'miskutejas', 'pack misky', 'pack','personaliza','clientes'],
-  openGraph: {
-    title: 'Tienda | Misky Reposteria',
-    description: 'Explora nuestros productos',
-    url: 'https://miskyreposteria.es/',
-    siteName: 'Misky Reposteria',
-    locale: 'es_ES',
-    type: 'website',
-  },
+  title: 'Mabelita Oficial',
+  // description: 'Bienvenidos a Misky Reposteria',
+  // keywords: ['productos', 'tienda', 'alfajores', 'piononos', 'cuchareables', 'especiales', 'miskutejas', 'pack misky', 'pack','personaliza','clientes'],
+  // openGraph: {
+  //   title: 'Tienda | Misky Reposteria',
+  //   description: 'Explora nuestros productos',
+  //   url: 'https://miskyreposteria.es/',
+  //   siteName: 'Misky Reposteria',
+  //   locale: 'es_ES',
+  //   type: 'website',
+  // },
 };
 
 export default function HomePage() {
 
   return (
     <main className="flex flex-col">
-      <section className="hidden md:block pt-40 pb-32 relative h-[80vh]">
+      {/* <section className="hidden md:block pt-40 pb-32 relative h-[80vh]">
         <div
           className="
             absolute top-0 left-0 w-full h-[80vh] md:h-full
@@ -63,7 +63,7 @@ export default function HomePage() {
 
 
         <Ratings />
-      </section>
+      </section> */}
     </main>
   );
 }
