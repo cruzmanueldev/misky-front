@@ -1,5 +1,6 @@
 'use client'
 import IconWhatsapp from '@/assets/home/whatsapp_icon.png'
+import { trackEvent } from '@/utils/analytics';
 import Image from 'next/image';
 
 export default function FloatContactUs() {
