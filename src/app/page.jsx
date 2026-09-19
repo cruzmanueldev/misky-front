@@ -59,7 +59,7 @@ export default function HomePage() {
         <Offer />
 
         <WhyUs />
-        <WeeklyPromotion />
+        {/* <WeeklyPromotion /> */}
 
 
         <Ratings />

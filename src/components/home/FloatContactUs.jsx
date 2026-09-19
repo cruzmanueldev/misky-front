@@ -10,6 +10,12 @@ export default function FloatContactUs() {
         href="https://wa.me/34613515064?text=Hola%20tengo%20una%20consulta"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => {
+          trackEvent("whatsapp_click", {
+            button_location: "floating_button",
+            transport_type: "beacon",
+          })
+        }}
       >
         <Image
           src={IconWhatsapp}
