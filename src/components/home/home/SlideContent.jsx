@@ -12,8 +12,9 @@ export default function SlideContent({ product, notify }) {
   return (
     <div className="py-2 flex flex-col md:max-h-[60vh] md:flex-row bg-[#fce2c4]">
       <div className="w-full md:w-1/2 lg:w-2/5 ">
+        {/* <img */}
         <Image
-          src={`${process.env.NEXT_PUBLIC_API_URL}${product.image}`}
+          src={`${process.env.NEXT_PUBLIC_API_URL}${product.image_banner}`}
           width={800}
           height={200}
           style={{ width: "100%", height: "100%" }}
