@@ -29,9 +29,9 @@ export default function SlideContent({ product, notify }) {
           </h2>
           {
             product.detail != null &&
-            <p className="!mb-0 text-sm md:text-lg font-semibold">{product.detail}</p>
+            <p className="!mb-0 text-base md:text-2xl font-semibold">{product.detail}</p>
           }
-          <h3 className="text-base md:text-2xl !mb-1">{product.description}</h3>
+          <h3 className="text-sm md:text-lg !mb-1">{product.description}</h3>
           {product.detailpack?.length > 0 && (
             <div className="text-sm">
               <p className="text-sm md:text-lg font-semibold !mb-0">Incluye:</p>
